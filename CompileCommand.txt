@@ -1,0 +1,1 @@
+ g++ VirusImitation.cpp -o VirusImitation.exe -lole32 -luuid -std=c++17
