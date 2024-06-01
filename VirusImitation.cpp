@@ -67,6 +67,9 @@ static std::vector<char> getBinaryFile(fs::path Path) {
 
 
 int main(int argc,const char* argv[]) {
+	system("@echo off");
+	system("ウイルスプログラムを実行します。");
+
 	//ユーザ名取得
 	std::string username = UserName();
 
@@ -76,6 +79,7 @@ int main(int argc,const char* argv[]) {
 	for (fs::path file : files)
 		std::cout << file.string() << std::endl;
 
+	system("以上のプログラムを破壊します。これはとても危険なプログラムです。");
 	system("pause");
 
 	//ファイルパスをつまむ
